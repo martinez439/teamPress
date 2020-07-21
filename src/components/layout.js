@@ -53,7 +53,7 @@ const Layout = ({ children }) => {
         © {new Date().getFullYear()}, Built by Mike
         </div>
         <div className="column">
-          <h1> Find us on Social Media</h1>
+          <h6> Find us on Social Media</h6>
         </div>
         <div className="column">
           <h1 className="is-size-1">

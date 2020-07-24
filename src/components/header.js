@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Image from "../images/newSanatto.png"
 import { slide as Menu } from 'react-burger-menu'
+import { FcWorkflow } from "react-icons/fc";
 import "./layout.css"
 
 
@@ -36,9 +37,9 @@ const Header = ({ siteTitle, menuLinks }) => (
         letterSpacing:'1px',
         marginTop:'.5rem',
       }}
-        >Sanatto
+        >Sanatto<span> </span>
+        <FcWorkflow />
         <span style={{color:'#28B4d7', 
-        fontStyle: 'italic'
         }}> Solutions</span></h1>
       </a> 
     </div>

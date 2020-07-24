@@ -29,7 +29,9 @@ const SecondPage = () => (
       to={{ opacity: 1, marginTop: 0 }}>
       {props => <div style={props}>
       <p className="card-title is-centered is-size-4 is-italic has-text-white has-text-centered has-text-weight-semibold">
-            <span className="is-size-4"><FaQuoteLeft /> </span>How can we help?<span className=" is-size-4"> <FaQuoteRight /></span>
+            <span className="is-size-5"><FaQuoteLeft /> </span>
+            How can we help? <span className=" is-size-5"> 
+            <FaQuoteRight /></span>
             </p>
          </div>}
       </Spring>

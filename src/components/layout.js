@@ -46,21 +46,13 @@ const Layout = ({ children }) => {
           <div className="columns">
             <div className="column">
         <p>
-        <strong>Sanatto</strong> Solutions <a>www.librettoh.com</a>
+        Sanatto Solutions
         </p>
         </div>
         <div className="column">
         © {new Date().getFullYear()}, Built by Mike
         </div>
-        <div className="column">
-          <h6> Find us on Social Media</h6>
-        </div>
-        <div className="column">
-          <h1 className="is-size-1">
-        
-        <IoLogoTwitter />
-        </h1>
-        </div>
+     
         
         
         </div>

@@ -1,8 +1,9 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import Image from "../images/sanatto.png"
+import Image from "../images/newSanatto.png"
 import { slide as Menu } from 'react-burger-menu'
+import "./layout.css"
 
 
 
@@ -23,7 +24,23 @@ const Header = ({ siteTitle, menuLinks }) => (
   >
     <div className="navbar-brand">
       <div className="navbar-start">
-      <a className="navbar-item"><img src={Image} width="132" height="28" alt="A dog smiling in a party hat" /></a> 
+     <a className="navbar-item" 
+  >
+      <h1 className="logo" style={{
+        color: 'white',
+        alignItems: 'end',
+        alignSelf: 'end',
+        fontFamily: 'Helvetica',
+        fontSize:'1.5rem',
+        fontWeight: '800',
+        letterSpacing:'1px',
+        marginTop:'.5rem',
+      }}
+        >Sanatto
+        <span style={{color:'#28B4d7', 
+        fontStyle: 'italic'
+        }}> Solutions</span></h1>
+      </a> 
     </div>
       <a onClick={handleClick} 
       className="navbar-burger" 

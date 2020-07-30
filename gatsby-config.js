@@ -50,6 +50,7 @@ module.exports = {
         fieldName: `wordPress`,
         // Url to query from
         url: `https://teampress.online/graphql`,
+        refetchInterval: 60
       },
     },
     `gatsby-plugin-sass`,

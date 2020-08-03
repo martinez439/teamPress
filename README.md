@@ -14,7 +14,7 @@ https://www.sanatto.online/
 * [Bulma-CSS] (https://bulma.io/)
 
 
-<div style="width:150px; height:200px">
+
 ![Sanatto Home Page](/src/images/homepage.png "Sanatto Home Page")
-</div>
+
 ![CMS](/src/images/wordpressView.png "WordPress for Sanatto")

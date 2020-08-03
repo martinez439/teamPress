@@ -7,11 +7,6 @@ https://www.sanatto.online/
 > *WordPress*, and have its data render with a static-site generator such as
 > *Gatsby.JS*
 
-
-!(/src/images/homepage.png "Sanatto Home Page")
-!(/src/images/wordpressView.png "WordPress for Sanatto")
-
-
 ## Built with:
 
 * [Gatsby.JS] (https://www.gatsbyjs.org/)
@@ -19,4 +14,7 @@ https://www.sanatto.online/
 * [Bulma-CSS] (https://bulma.io/)
 
 
-
+<div style="width:150px; height:100px">
+![Sanatto Home Page](/src/images/homepage.png "Sanatto Home Page")
+</div>
+![CMS](/src/images/wordpressView.png "WordPress for Sanatto")
